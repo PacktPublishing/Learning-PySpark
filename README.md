@@ -19,24 +19,19 @@ The code will look like the following:
         data_key.reduceByKey(lambda x, y: x + y).collect() 
 
 # Software requirements:
-For this book you need a personal computer (can be either Windows machine,  
-Mac, or Linux). To run Apache Spark, you will need Java 7+ and an installed and  
-conﬁ gured Python 2.6+ or 3.4+ environment; we use the Anaconda distribution of  
-Python in version 3.5, which can be downloaded from https://www.continuum. 
-io/downloads. 
+For this book you need a personal computer (can be either Windows machine, Mac, or Linux). To run Apache Spark, you will need Java 7+ and an installed and conﬁgured Python 2.6+ or 3.4+ environment; we use the Anaconda distribution of Python in version 3.5, which can be downloaded from https://www.continuum.io/downloads. 
 
-The Python modules we randomly use throughout the book come preinstalled  
-with Anaconda. We also use GraphFrames and TensorFrames that can be loaded  
-dynamically while starting a Spark instance: to load these you just need an Internet  
-connection. It is ﬁ ne if some of those modules are not currently installed on your  
-machine – we will guide you through the installation process. 
+The Python modules we randomly use throughout the book come preinstalled with Anaconda. We also use GraphFrames and TensorFrames that can be loaded dynamically while starting a Spark instance: to load these you just need an Internet connection. It is ﬁ ne if some of those modules are not currently installed on your machine – we will guide you through the installation process. 
 
 ## Related Products:
-* [Getting Started with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow?utm_source=github&utm_medium=repository&utm_content=9781786468574)
+* [Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning?utm_source=github&utm_medium=repository&utm_content=9781783555130)
 
-* [Deep Learning with TensorFlow [Video]](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-tensorflow-video?utm_source=github&utm_medium=repository&utm_content=9781786464491)
+* [Spark for Python Developers](https://www.packtpub.com/big-data-and-business-intelligence/spark-python-developers?utm_source=github&utm_medium=repository&utm_content=9781784399696)
 
-* [Building Machine Learning Systems with TensorFlow [Video]](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-tensorflow-video?utm_source=github&utm_medium=repository&utm_content=9781787281806)
+* [Python Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-cookbook?utm_source=github&utm_medium=repository&utm_content=9781785282287)
 
 ###Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+
+#### Note:
+Chapter 11 and Bouns Chapter 02 does not contain code files.
